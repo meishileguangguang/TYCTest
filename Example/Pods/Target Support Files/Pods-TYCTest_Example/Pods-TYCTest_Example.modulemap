@@ -1,0 +1,6 @@
+framework module Pods_TYCTest_Example {
+  umbrella header "Pods-TYCTest_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,16 @@
+PODS:
+  - TYCTest (0.1.0)
+
+DEPENDENCIES:
+  - TYCTest (from `../`)
+
+EXTERNAL SOURCES:
+  TYCTest:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  TYCTest: edeaaf381aed6d007bc0eeec444baf6057c51ee5
+
+PODFILE CHECKSUM: 9f10259f58b12e20173e35629a8f733e96a48e59
+
+COCOAPODS: 1.5.0

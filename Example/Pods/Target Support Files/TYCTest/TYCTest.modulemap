@@ -1,0 +1,6 @@
+framework module TYCTest {
+  umbrella header "TYCTest-umbrella.h"
+
+  export *
+  module * { export * }
+}
