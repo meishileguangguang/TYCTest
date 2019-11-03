@@ -8,8 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		08A10E5A77FB92E5E3A6C32C5DE9A947 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
-		1875CA96236EDAD2007A846F /* TYCTest.h in Headers */ = {isa = PBXBuildFile; fileRef = 1875CA94236EDAD2007A846F /* TYCTest.h */; };
-		1875CA97236EDAD2007A846F /* TYCTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 1875CA95236EDAD2007A846F /* TYCTest.m */; };
+		1875CA9A236EDD2F007A846F /* TYCTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 1875CA98236EDD2F007A846F /* TYCTest.m */; };
+		1875CA9B236EDD2F007A846F /* TYCTest.h in Headers */ = {isa = PBXBuildFile; fileRef = 1875CA99236EDD2F007A846F /* TYCTest.h */; };
 		3248AC48FCA8F964121323FB762900CD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
 		3ABF00C95CAFDE588460C8BE6270953A /* TYCTest-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5ADCD894789BFD7D84F1DE60E9387353 /* TYCTest-dummy.m */; };
 		41C5C3DD5E72DDB258DE1695BE01C5E5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
@@ -38,8 +38,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		1875CA94236EDAD2007A846F /* TYCTest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TYCTest.h; sourceTree = "<group>"; };
-		1875CA95236EDAD2007A846F /* TYCTest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TYCTest.m; sourceTree = "<group>"; };
+		1875CA98236EDD2F007A846F /* TYCTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TYCTest.m; path = TYCTest/Classes/TYCTest.m; sourceTree = "<group>"; };
+		1875CA99236EDD2F007A846F /* TYCTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TYCTest.h; path = TYCTest/Classes/TYCTest.h; sourceTree = "<group>"; };
 		1EA2438F44F6B390F60D43E0872767A8 /* Pods-TYCTest_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TYCTest_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		1F66ADAA949B08F3F247BE0F903174C4 /* Pods-TYCTest_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TYCTest_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		23CA2E99607E253309B2E0B31934F37B /* Pods-TYCTest_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TYCTest_Tests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -221,10 +221,10 @@
 		FF86BEF3ABCDE5858C5A6C5466658DFD /* TYCTest */ = {
 			isa = PBXGroup;
 			children = (
+				1875CA99236EDD2F007A846F /* TYCTest.h */,
+				1875CA98236EDD2F007A846F /* TYCTest.m */,
 				81DFB255B95FDD5FE65874E180CB6E33 /* Pod */,
 				2E43B64F01FD302D8B8B55461DDCD901 /* Support Files */,
-				1875CA94236EDAD2007A846F /* TYCTest.h */,
-				1875CA95236EDAD2007A846F /* TYCTest.m */,
 			);
 			name = TYCTest;
 			path = ../..;
@@ -238,7 +238,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E6421C8DD13D67F3AE353289F7B9FC28 /* Pods-TYCTest_Example-umbrella.h in Headers */,
-				1875CA96236EDAD2007A846F /* TYCTest.h in Headers */,
+				1875CA9B236EDD2F007A846F /* TYCTest.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -347,7 +347,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1875CA97236EDAD2007A846F /* TYCTest.m in Sources */,
+				1875CA9A236EDD2F007A846F /* TYCTest.m in Sources */,
 				CD2CD16618FA36A42C8192FA042438A7 /* Pods-TYCTest_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
